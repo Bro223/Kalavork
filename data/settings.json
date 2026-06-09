@@ -1,0 +1,27 @@
+{
+    "home": [],
+    "shipping_ways": [
+        {
+            "id": "delivery",
+            "label": {
+                "et": "Tarne",
+                "ru": "Доставка",
+                "fi": "Toimitus",
+                "en": "Delivery"
+            },
+            "enabled": true,
+            "requires_address": true
+        },
+        {
+            "id": "pickup",
+            "label": {
+                "et": "Tulen ise järgi",
+                "ru": "Самовывоз",
+                "fi": "Nouto",
+                "en": "Pickup"
+            },
+            "enabled": true,
+            "requires_address": false
+        }
+    ]
+}

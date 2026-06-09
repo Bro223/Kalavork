@@ -1,0 +1,10 @@
+{
+    "available": ["et", "ru", "fi", "en"],
+    "default": "et",
+    "names": {
+        "et": "Eesti",
+        "ru": "Русский",
+        "fi": "Suomi",
+        "en": "English"
+    }
+}

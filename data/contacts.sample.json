@@ -1,0 +1,22 @@
+{
+    "sample-contact": {
+        "id": "sample-contact",
+        "name": "Jane Doe",
+        "email": "jane@example.com",
+        "phone": "+372 5555 0000",
+        "status": "contact",
+        "address": {
+            "street": "Sample 1",
+            "city": "Tallinn",
+            "postal": "10111",
+            "county": "Harjumaa",
+            "country": "Estonia"
+        },
+        "notes": "Sample contact — replace with real data on your server.",
+        "source": "manual",
+        "order_ids": [],
+        "message_history": [],
+        "created_at": "2026-01-01T12:00:00+02:00",
+        "updated_at": "2026-01-01T12:00:00+02:00"
+    }
+}

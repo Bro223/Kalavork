@@ -1,0 +1,287 @@
+{
+    "prod-001": {
+        "id": "prod-001",
+        "name": {
+            "et": "Hiina kalavõrk 80m*7m*70mm*0.18mm",
+            "ru": "Китайская рыболовная сеть 80м*7м*70мм*0.18мм",
+            "fi": "Kiinalainen kalaverkko 80m*7m*70mm*0.18mm",
+            "en": "Chinese fishing net 80m*7m*70mm*0.18mm"
+        },
+        "description": {
+            "et": "Kalavõrk silmasuurusega 70mm sobib suuremate kalade püüdmiseks.",
+            "ru": "Рыболовная сеть с размером ячеек 70мм подходит для ловли крупных рыб.",
+            "fi": "Kalaverkko 70mm silmäkoolla sopii suurempien kalojen pyydystämiseen.",
+            "en": "Fishing net with 70mm mesh size suitable for catching larger fish."
+        },
+        "price": 17.5,
+        "tier_pricing": [],
+        "stock": 20,
+        "image": "net1-280x187.webp",
+        "gallery_image": "net1-280x187.webp",
+        "category": "hiina",
+        "visible": true,
+        "specs": {
+            "length": "80m",
+            "height": "7m",
+            "mesh": "70mm",
+            "line": "0.18mm"
+        },
+        "created_at": "2025-12-18T16:47:54+00:00",
+        "updated_at": "2026-06-09T21:10:50+03:00"
+    },
+    "prod-002": {
+        "id": "prod-002",
+        "name": {
+            "et": "Hiina kalavõrk 80m*7m*65mm*0.18mm",
+            "ru": "Китайская рыболовная сеть 80м*7м*65мм*0.18мм",
+            "fi": "Kiinalainen kalaverkko 80m*7m*65mm*0.18mm",
+            "en": "Chinese fishing net 80m*7m*65mm*0.18mm"
+        },
+        "description": {
+            "et": "Kalavõrk silmasuurusega 65mm sobib keskmise suurusega kalade püüdmiseks.",
+            "ru": "Рыболовная сеть с размером ячеек 65мм подходит для ловли среднего размера рыбы.",
+            "fi": "Kalaverkko 65mm silmäkoolla sopii keskikokoisten kalojen pyydystämiseen.",
+            "en": "Fishing net with 65mm mesh size suitable for catching medium-sized fish."
+        },
+        "price": 17.5,
+        "tier_pricing": [],
+        "stock": 0,
+        "image": "hiina-490x652.webp",
+        "gallery_image": "hiina-490x652.webp",
+        "category": "hiina",
+        "visible": true,
+        "specs": {
+            "length": "80m",
+            "height": "7m",
+            "mesh": "65mm",
+            "line": "0.18mm"
+        },
+        "created_at": "2025-12-18T16:47:54+00:00",
+        "updated_at": "2025-12-18T16:47:54+00:00"
+    },
+    "prod-003": {
+        "id": "prod-003",
+        "name": {
+            "et": "\"Soome\" võrgulina 180m*12m*65mm*0.2mm",
+            "ru": "Полотно для \"Финских\" сетей 180m*12m*65mm*0.2mm",
+            "fi": "\"Suomalainen\" verkko kangas 180m*12m*65mm*0.2mm",
+            "en": "\"Finnish\" net cloth 180m*12m*65mm*0.2mm"
+        },
+        "description": {
+            "et": "Võrgulina silmasuurusega 65mm sobib keskmise suurusega kalade püüdmiseks võrkude valmistamiseks.",
+            "ru": "Полотно с размером ячеек 65мм подходит для изготовления сетей для ловли среднего размера рыбы.",
+            "fi": "Verkko kangas 65mm silmäkoolla sopii keskikokoisten kalojen pyydystämiseen verkkojen valmistukseen.",
+            "en": "Net cloth with 65mm mesh size suitable for making nets for catching medium-sized fish."
+        },
+        "price": 32,
+        "tier_pricing": [
+            {
+                "min_qty": 10,
+                "price": 30
+            }
+        ],
+        "stock": 0,
+        "image": "polotno-490x982.webp",
+        "gallery_image": "polotno-490x982.webp",
+        "category": "soome",
+        "visible": true,
+        "specs": {
+            "length": "180m",
+            "height": "12m",
+            "mesh": "65mm",
+            "line": "0.2mm"
+        },
+        "created_at": "2025-12-18T16:47:54+00:00",
+        "updated_at": "2025-12-18T16:47:54+00:00"
+    },
+    "prod-004": {
+        "id": "prod-004",
+        "name": {
+            "et": "Soome võrk 80m*3.4m*38mm*0.14mm",
+            "ru": "Финская сеть 80м*3.4м*38мм*0.14мм",
+            "fi": "Suomalainen verkko 80m*3.4m*38mm*0.14mm",
+            "en": "Finnish net 80m*3.4m*38mm*0.14mm"
+        },
+        "description": {
+            "et": "Kalavõrk silmasuurusega 38mm sobib väiksemate kalade püüdmiseks.",
+            "ru": "Финская сеть с размером ячеек 38мм подходит для ловли мелкой рыбы.",
+            "fi": "Kalaverkko 38mm silmäkoolla sopii pienempien kalojen pyydystämiseen.",
+            "en": "Fishing net with 38mm mesh size suitable for catching smaller fish."
+        },
+        "price": 60,
+        "tier_pricing": [],
+        "stock": 14,
+        "image": "38-fin-2-490x871.webp",
+        "gallery_image": "38-fin-2-490x871.webp",
+        "category": "soome",
+        "visible": true,
+        "specs": {
+            "length": "80m",
+            "height": "3.4m",
+            "mesh": "38mm",
+            "line": "0.14mm"
+        },
+        "created_at": "2025-12-18T16:47:54+00:00",
+        "updated_at": "2026-06-09T21:11:17+03:00"
+    },
+    "prod-005": {
+        "id": "prod-005",
+        "name": {
+            "et": "Soome võrk 80m*2.5m*38mm*0.18mm",
+            "ru": "Финская сеть 80м*2.5м*38мм*0.18мм",
+            "fi": "Suomalainen verkko 80m*2.5m*38mm*0.18mm",
+            "en": "Finnish net 80m*2.5m*38mm*0.18mm"
+        },
+        "description": {
+            "et": "Kalavõrk silmasuurusega 38mm sobib väiksemate kalade püüdmiseks.",
+            "ru": "Финская сеть с размером ячеек 38мм подходит для ловли мелкой рыбы.",
+            "fi": "Kalaverkko 38mm silmäkoolla sopii pienempien kalojen pyydystämiseen.",
+            "en": "Fishing net with 38mm mesh size suitable for catching smaller fish."
+        },
+        "price": 60,
+        "tier_pricing": [],
+        "stock": 10,
+        "image": "38-fin-350x196.webp",
+        "gallery_image": "38-fin-350x196.webp",
+        "category": "soome",
+        "visible": true,
+        "specs": {
+            "length": "80m",
+            "height": "2.5m",
+            "mesh": "38mm",
+            "line": "0.18mm"
+        },
+        "created_at": "2025-12-18T16:47:54+00:00",
+        "updated_at": "2025-12-18T16:47:54+00:00"
+    },
+    "prod-006": {
+        "id": "prod-006",
+        "name": {
+            "et": "Soome võrk 80m*12m*65mm*0.17mm",
+            "ru": "Финская сеть 80м*12м*65мм*0.17мм",
+            "fi": "Suomalainen verkko 80m*12m*65mm*0.17mm",
+            "en": "Finnish net 80m*12m*65mm*0.17mm"
+        },
+        "description": {
+            "et": "Kalavõrk silmasuurusega 65mm sobib keskmise suurusega kalade püüdmiseks.",
+            "ru": "Финская сеть с размером ячеек 65мм подходит для ловли среднего размера рыбы.",
+            "fi": "Kalaverkko 65mm silmäkoolla sopii keskikokoisten kalojen pyydystämiseen.",
+            "en": "Fishing net with 65mm mesh size suitable for catching medium-sized fish."
+        },
+        "price": 70,
+        "tier_pricing": [],
+        "stock": 8,
+        "image": "65-fin-490x871.webp",
+        "gallery_image": "65-fin-490x871.webp",
+        "category": "soome",
+        "visible": true,
+        "specs": {
+            "length": "80m",
+            "height": "12m",
+            "mesh": "65mm",
+            "line": "0.17mm"
+        },
+        "created_at": "2025-12-18T16:47:54+00:00",
+        "updated_at": "2025-12-18T16:47:54+00:00"
+    },
+    "prod-007": {
+        "id": "prod-007",
+        "name": {
+            "et": "Soome võrk 80m*12m*90mm*0.17mm",
+            "ru": "Финская сеть 80м*12м*90мм*0.17мм",
+            "fi": "Suomalainen verkko 80m*12m*90mm*0.17mm",
+            "en": "Finnish net 80m*12m*90mm*0.17mm"
+        },
+        "description": {
+            "et": "Kalavõrk silmasuurusega 90mm sobib suuremate kalade püüdmiseks.",
+            "ru": "Финская сеть с размером ячеек 90мм подходит для ловли крупной рыбы.",
+            "fi": "Kalaverkko 90mm silmäkoolla sopii suurempien kalojen pyydystämiseen.",
+            "en": "Fishing net with 90mm mesh size suitable for catching larger fish."
+        },
+        "price": 70,
+        "tier_pricing": [],
+        "stock": 11,
+        "image": "90-fin-490x274.webp",
+        "gallery_image": "90-fin-490x274.webp",
+        "category": "soome",
+        "visible": true,
+        "specs": {
+            "length": "80m",
+            "height": "12m",
+            "mesh": "90mm",
+            "line": "0.17mm"
+        },
+        "created_at": "2025-12-18T16:47:54+00:00",
+        "updated_at": "2026-06-09T20:34:58+03:00"
+    },
+    "prod-008": {
+        "id": "prod-008",
+        "name": {
+            "et": "Soome võrgulina 180m*12m*65mm*0.17mm",
+            "ru": "Финское полотно 180м*12м*65мм*0.17мм",
+            "fi": "Suomalainen verkko kangas 180m*12m*65mm*0.17mm",
+            "en": "Finnish net cloth 180m*12m*65mm*0.17mm"
+        },
+        "description": {
+            "et": "Soome võrgulina silmasuurusega 65mm sobib keskmise suurusega kalade püüdmiseks.",
+            "ru": "Финское полотно с размером ячеек 65мм подходит для ловли среднего размера рыбы.",
+            "fi": "Suomalainen verkko kangas 65mm silmäkoolla sopii keskikokoisten kalojen pyydystämiseen.",
+            "en": "Finnish net cloth with 65mm mesh size suitable for catching medium-sized fish."
+        },
+        "price": 32,
+        "tier_pricing": [
+            {
+                "min_qty": 20,
+                "price": 30
+            }
+        ],
+        "stock": 39,
+        "image": "polotno-490x982.webp",
+        "gallery_image": "polotno-490x982.webp",
+        "category": "soome",
+        "visible": true,
+        "specs": {
+            "length": "180m",
+            "height": "12m",
+            "mesh": "65mm",
+            "line": "0.17mm"
+        },
+        "created_at": "2025-12-18T16:47:54+00:00",
+        "updated_at": "2026-06-08T20:11:39+03:00"
+    },
+    "prod-009": {
+        "id": "prod-009",
+        "name": {
+            "et": "Soome võrgulina 180m*12m*90mm*0.17mm",
+            "ru": "Финское полотно 180м*12м*90мм*0.17мм",
+            "fi": "Suomalainen verkko kangas 180m*12m*90mm*0.17mm",
+            "en": "Finnish net cloth 180m*12m*90mm*0.17mm"
+        },
+        "description": {
+            "et": "Soome võrgulina silmasuurusega 90mm sobib suuremate kalade püüdmiseks.",
+            "ru": "Финское полотно с размером ячеек 90мм подходит для ловли крупной рыбы.",
+            "fi": "Suomalainen verkko kangas 90mm silmäkoolla sopii suurempien kalojen pyydystämiseen.",
+            "en": "Finnish net cloth with 90mm mesh size suitable for catching larger fish."
+        },
+        "price": 32,
+        "tier_pricing": [
+            {
+                "min_qty": 20,
+                "price": 30
+            }
+        ],
+        "stock": 40,
+        "image": "polotno-490x982.webp",
+        "gallery_image": "polotno-490x982.webp",
+        "category": "soome",
+        "visible": true,
+        "specs": {
+            "length": "180m",
+            "height": "12m",
+            "mesh": "90mm",
+            "line": "0.17mm"
+        },
+        "created_at": "2025-12-18T16:47:54+00:00",
+        "updated_at": "2025-12-18T16:47:54+00:00"
+    }
+}

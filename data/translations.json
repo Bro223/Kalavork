@@ -1,0 +1,344 @@
+{
+    "hero_title": {
+        "et": "Kõik vajalikud kalavõrgud ühest kohast",
+        "ru": "Все необходимые рыболовные сети в одном месте",
+        "fi": "Kaikki tarvittavat kalastusverkot yhdessä paikassa",
+        "en": "All necessary fishing nets in one place"
+    },
+    "hero_text": {
+        "et": "Kui soovite tellida võrgu mõõduga, mida meie lehel pole välja toodud, teha suure eritellimuse, või teil on küsimusi või ettepanekuid, siis palun võtke meiega ühendust telefoni teel <a href='tel:+37253096721'>+37253096721</a> (Aleks). Võite saata meile sõnumi allpool oleva vormi kaudu või kirjutada meile otse e-posti aadressil <a href='mailto:alex.bratsunn@gmail.com'>alex.bratsunn@gmail.com</a>. <br><br> Samuti võime saata välja osa võrgust näidisena toote kvaliteediga tutvumiseks.",
+        "ru": "Если вы хотите заказать сеть нестандартного размера, который не указан на нашем сайте, сделать оптовый спецзаказ, или у вас есть вопросы или предложения, пожалуйста, свяжитесь с нами по телефону <a href='tel:+37253096721'>+37253096721</a> (Алекс). Вы можете отправить нам сообщение через форму ниже или написать нам напрямую на электронную почту <a href='mailto:alex.bratsunn@gmail.com'>alex.bratsunn@gmail.com</a>. <br><br>Также мы можем отправить часть сети в качестве образца для ознакомления с качеством продукта.",
+        "fi": "Jos haluat tilata verkon mittoja, joita ei ole listattu sivustollamme, tehdä suuren erikoistilauksen tai sinulla on kysymyksiä tai ehdotuksia, ota yhteyttä puhelimitse <a href='tel:+37253096721'>+37253096721</a> (Aleks). Voit lähettää meille viestin alla olevalla lomakkeella tai kirjoittaa suoraan sähköpostiosoitteeseen <a href='mailto:alex.bratsunn@gmail.com'>alex.bratsunn@gmail.com</a>. <br><br> Voimme myös lähettää osan verkosta näytteenä tuotteen laadun tutustumiseksi.",
+        "en": "If you want to order a net with dimensions not listed on our site, make a large custom order, or have questions or suggestions, please contact us by phone <a href='tel:+37253096721'>+37253096721</a> (Aleks). You can send us a message through the form below or write directly to our email <a href='mailto:alex.bratsunn@gmail.com'>alex.bratsunn@gmail.com</a>. <br><br> We can also send a part of the net as a sample to familiarize with the product quality."
+    },
+    "products_title": {
+        "et": "Laos tooted",
+        "ru": "Товары в наличии",
+        "fi": "Varastotuotteet",
+        "en": "Products in Stock"
+    },
+    "out_of_stock": {
+        "et": "hetkel laos otsas",
+        "ru": "на данный момент распродыны",
+        "fi": "tällä hetkellä loppu varastosta",
+        "en": "currently out of stock"
+    },
+    "contact_btn": {
+        "et": "Võta ühendust",
+        "ru": "Свяжитесь с нами",
+        "fi": "Ota yhteyttä",
+        "en": "Contact Us"
+    },
+    "order_btn": {
+        "et": "Telli",
+        "ru": "Заказать",
+        "fi": "Tilaa",
+        "en": "Order"
+    },
+    "shipping_title": {
+        "et": "Toimetamine",
+        "ru": "Доставка",
+        "fi": "Toimitus",
+        "en": "Delivery"
+    },
+    "shipping_text": {
+        "et": "Toimetame tooted üle Eesti Omnivaga, DPD, Itella ja teiste kulleritega. <br>Toimetamise hind pakiautomaati (1-15 võrke ühes pakkis) on tavaliselt umbes 5€. <br>Eriti suure tellimuse saame toimetada ise autoga, hind kokkuleppel",
+        "ru": "Мы доставляем товары по всей Эстонии с помощью Omniva, DPD, Itella и других курьерских служб. Стоимость доставки в почтовый автомат (до 15 сеток в посылке) обычно составляет около 5€. Особенно крупные заказы мы можем доставить сами на автомобиле, стоимость по договоренности",
+        "fi": "Toimitamme tuotteet koko Viroon Omnivan, DPD:n, Itellan ja muiden kuriirien avulla. <br>Toimituskulut pakettiautomaattiin (1-15 verkkoa yhdessä paketissa) ovat yleensä noin 5€. <br>Erityisen suuret tilaukset voimme toimittaa itse autolla, hinta sopimuksen mukaan",
+        "en": "We deliver products across Estonia with Omniva, DPD, Itella and other couriers. <br>Delivery cost to parcel machine (1-15 nets in one package) is usually about 5€. <br>Especially large orders can be delivered by us by car, price by agreement"
+    },
+    "why_us_title": {
+        "et": "Miks valida Kalavork.ee?",
+        "ru": "Почему стоит выбрать Kalavork.ee?",
+        "fi": "Miksi valita Kalavork.ee?",
+        "en": "Why Choose Kalavork.ee?"
+    },
+    "why_us_text": {
+        "et": "Kalavork.ee pakub kvaliteetseid kalavõrke ja võrgulina otse Eestist. Meie eesmärk on pakkuda vastupidavaid ja tõhusaid lahendusi nii harrastus- kui ka kutselistele kalameestele (ja naistele).",
+        "ru": "Kalavork.ee предлагает качественные рыболовные сети и сеточное полотно с поставкой напрямую из Эстонии. Наша цель — предоставлять надежные и эффективные решения как для любительской, так и для профессиональной рыбалки.",
+        "fi": "Kalavork.ee tarjoaa laadukkaita kalaverkkoja ja verkko kankaita suoraan Virosta. Tavoitteenamme on tarjota kestäviä ja tehokkaita ratkaisuja sekä harrastus- että ammattikalastajille (ja naisille).",
+        "en": "Kalavork.ee offers quality fishing nets and net cloth directly from Estonia. Our goal is to provide durable and effective solutions for both hobby and professional fishermen (and women)."
+    },
+    "why_us_list": {
+        "et": ["Lai valik erineva silmasuurusega ja tüüpe kalavõrke","Kiire tarne üle Eesti","Võimalus tellida eritellimusel võrke","Nõustamine telefoni ja e-posti teel","Võimalik näidisvõrk/materjali näidis enne suuremat tellimust"],
+        "ru": ["Широкий выбор рыболовных сетей различных типов и размеров ячейки","Быстрая доставка по всей Эстонии","Возможность изготовления сетей по индивидуальному заказу","Консультации по телефону и электронной почте","Возможность получения образца сети или материала перед крупным заказом"],
+        "fi": ["Laaja valikoima erilaisia silmäkokoisia ja tyyppisiä kalaverkkoja","Nopea toimitus koko Viroon","Mahdollisuus tilata erikoistilauksena verkkoja","Neuvonta puhelimitse ja sähköpostitse","Mahdollinen näyteverkko/materiaalinäyte ennen suurempaa tilausta"],
+        "en": ["Wide selection of fishing nets with different mesh sizes and types","Fast delivery across Estonia","Possibility to order custom nets","Consultation by phone and email","Possible sample net/material sample before larger order"]
+    },
+    "info_title": {
+        "et": "Kuidas valida sobiv kalavõrk?",
+        "ru": "Как выбрать подходящую рыболовную сеть?",
+        "fi": "Miten valita sopiva kalaverkko?",
+        "en": "How to Choose the Right Fishing Net?"
+    },
+    "info_text": {
+        "et": "Sobiva kalavõrgu valik sõltub püütavast kalaliigist, veekogust ja soovitud tulemuse saavutamisest. Kalavõrgu silmasuurus mängib otsustavat rolli.",
+        "ru": "Выбор подходящей рыболовной сети зависит от вида рыбы, условий ловли и желаемого результата. Размер ячейки сети играет решающую роль.",
+        "fi": "Sopivan kalaverkon valinta riippuu pyydettävästä kalalajista, vesistöstä ja halutusta tuloksesta. Kalaverkon silmäkoko näyttelee ratkaisevaa roolia.",
+        "en": "The choice of a suitable fishing net depends on the species of fish being caught, the body of water, and the desired result. The mesh size of the fishing net plays a decisive role."
+    },
+    "info_mesh_title": {
+        "et": "Kalavõrgu silmasuurused",
+        "ru": "Размеры ячейки рыболовных сетей",
+        "fi": "Kalaverkon silmäkoot",
+        "en": "Fishing Net Mesh Sizes"
+    },
+    "info_mesh_text": {
+        "et": "Väiksema silmasuurusega võrgud (nt 38mm) sobivad väiksematele kaladele, samas kui suuremad silmad (65mm–90mm) on mõeldud suuremate kalade püüdmiseks.",
+        "ru": "Сети с меньшим размером ячейки (например, 38 мм) подходят для ловли мелкой рыбы, тогда как более крупные ячейки (65–90 мм) предназначены для ловли крупной рыбы.",
+        "fi": "Pienemmän silmäkokoisilla verkoilla (esim. 38mm) sopivat pienemmille kaloille, kun taas suuremmat silmät (65mm–90mm) on tarkoitettu suurempien kalojen pyydystämiseen.",
+        "en": "Nets with smaller mesh size (e.g. 38mm) are suitable for smaller fish, while larger meshes (65mm–90mm) are intended for catching larger fish."
+    },
+    "info_china_vs_fin_title": {
+        "et": "Hiina vs Soome kalavõrgud",
+        "ru": "Китайские и финские рыболовные сети",
+        "fi": "Kiinalaiset vs Suomalaiset kalaverkot",
+        "en": "Chinese vs Finnish Fishing Nets"
+    },
+    "info_china_vs_fin_text": {
+        "et": "Hiina kalavõrgud on soodsam valik igapäevaseks kasutamiseks. Soome kalavõrgud ja võrgulinad on tuntud oma vastupidavuse ja pika eluea poolest.",
+        "ru": "Китайские рыболовные сети являются более доступным вариантом для повседневного использования. Финские рыболовные сети и сеточное полотно известны своей прочностью и длительным сроком службы.",
+        "fi": "Kiinalaiset kalaverkot ovat edullisempi valinta päivittäiseen käyttöön. Suomalaiset kalaverkot ja verkko kankaat tunnetaan kestävyydestään ja pitkästä käyttöiästä.",
+        "en": "Chinese fishing nets are a more affordable option for everyday use. Finnish fishing nets and net cloths are known for their durability and long lifespan."
+    },
+    "faq_title": {
+        "et": "Korduma kippuvad küsimused",
+        "ru": "Часто задаваемые вопросы",
+        "fi": "Usein kysytyt kysymykset",
+        "en": "Frequently Asked Questions"
+    },
+    "faq_q1": {
+        "et": "Kuidas tellimust esitada?",
+        "ru": "Как оформить заказ?",
+        "fi": "Miten teen tilauksen?",
+        "en": "How do I place an order?"
+    },
+    "faq_a1": {
+        "et": "Valige soovitud tooted, täitke oma kontaktandmed ja soovi korral ka tarneandmed, kui soovite tellimust kulleriga. Võtame teiega esimesel võimalusel ühendust e-posti või telefoni teel, et tellimus kinnitada ja täpsustada.",
+        "ru": "Выберите нужные товары, заполните свои контактные данные и, если желаете доставку, адресные данные. Мы свяжемся с вами как можно скорее по электронной почте или телефону, чтобы подтвердить заказ и уточнить детали.",
+        "fi": "Valitse haluamasi tuotteet, täytä yhteystietosi ja toimitusosoitteesi, jos haluat tilauksen kuriiripalvelulla. Otamme sinuun yhteyttä mahdollisimman pian sähköpostitse tai puhelimitse vahvistaaksemme tilauksen.",
+        "en": "Select the products you want, fill in your contact details and delivery details if you want shipping. We will contact you as soon as possible via email or phone to confirm and arrange your order."
+    },
+    "faq_q2": {
+        "et": "Kas kalavõrke saab tellida eritellimusel?",
+        "ru": "Можно ли заказать рыболовные сети по индивидуальным размерам?",
+        "fi": "Voiko kalaverkkoja tilata erikoistilauksena?",
+        "en": "Can fishing nets be ordered custom-made?"
+    },
+    "faq_a2": {
+        "et": "Jah, valmistame ja tarnime kalavõrke ka eritellimusel. Võtke meiega ühendust telefoni või e-posti teel.",
+        "ru": "Да, мы изготавливаем и поставляем рыболовные сети по индивидуальному заказу. Свяжитесь с нами по телефону или электронной почте.",
+        "fi": "Kyllä, valmistamme ja toimitamme kalaverkkoja myös erikoistilauksena. Ota yhteyttä puhelimitse tai sähköpostitse.",
+        "en": "Yes, we manufacture and supply fishing nets custom-made. Contact us by phone or email."
+    },
+    "faq_q3": {
+        "et": "Kui kiiresti toimub tarne?",
+        "ru": "Как быстро осуществляется доставка?",
+        "fi": "Kuinka nopeasti toimitus tapahtuu?",
+        "en": "How fast is the delivery?"
+    },
+    "faq_a3": {
+        "et": "Tavaliselt jõuavad pakid Eesti piires kohale 1–3 tööpäeva jooksul. Suuremate tellimuste puhul lepitakse tarne eraldi kokku, kuna see suuremas osas sõltud tellimuse suurusest. Toodame võrgud väljaspool Eesti ning toimetamine ja tootmine saab võtta mitu kuud.",
+        "ru": "Обычно доставка по Эстонии занимает 1–3 рабочих дня. В случае крупных заказов сроки согласовываются индивидуально, так как они во многом зависят от объема заказа. Производство сетей осуществляется за пределами Эстонии, поэтому изготовление и доставка могут занять несколько месяцев.",
+        "fi": "Yleensä paketit saapuvat Virossa 1–3 työpäivässä. Suurempien tilausten kohdalla toimitus sovitaan erikseen, koska se riippuu suurelta osin tilauksen koosta. Valmistamme verkot Viron ulkopuolella ja toimitus ja tuotanto voivat kestää useita kuukausia.",
+        "en": "Usually packages arrive within Estonia in 1–3 working days. For larger orders, delivery is agreed separately, as it largely depends on the order size. We produce nets outside Estonia and delivery and production can take several months."
+    },
+    "faq_q4": {
+        "et": "Kas pakute ka võrgulina?",
+        "ru": "Предлагаете ли вы сеточное полотно?",
+        "fi": "Tarjoatteko myös verkko kankaita?",
+        "en": "Do you offer net cloth?"
+    },
+    "faq_a4": {
+        "et": "Jah, meie valikus on ka Soome võrgulinad erinevate silmasuurustega.",
+        "ru": "Да, в нашем ассортименте представлено финское сеточное полотно с различными размерами ячейки.",
+        "fi": "Kyllä, valikoimassamme on myös suomalaisia verkko kankaita erilaisilla silmäkokoilla.",
+        "en": "Yes, our selection also includes Finnish net cloths with different mesh sizes."
+    },
+    "contact_title": {
+        "et": "Võta meiega ühendust",
+        "ru": "Свяжитесь с нами",
+        "fi": "Ota yhteyttä",
+        "en": "Contact Us"
+    },
+    "contact_text": {
+        "et": "Kui teil on küsimusi või soovite lisateavet meie toodete või teenuste kohta, võtke meiega ühendust alloleva vormi kaudu. Meie meeskond vastab teie päringule võimalikult kiiresti. Saate meiega ühendust võtta telefoni <a href='tel:+37253096721'>+37253096721</a> (Aleks) või e-posti <a href='mailto:alex.bratsunn@gmail.com'>alex.bratsunn@gmail.com</a> teel.",
+        "ru": "Если у вас есть вопросы или вы хотите получить дополнительную информацию о наших товарах или услугах, свяжитесь с нами через форму ниже. Наша команда ответит на ваш запрос как можно быстрее. Вы можете связаться с нами по телефону <a href='tel:+37253096721'>+37253096721</a> (Алекс) или по электронной почте <a href='mailto:alex.bratsunn@gmail.com'>alex.bratsunn@gmail.com</a>.",
+        "fi": "Jos sinulla on kysymyksiä tai haluat lisätietoja tuotteistamme tai palveluistamme, ota yhteyttä alla olevalla lomakkeella. Tiimimme vastaa tiedusteluusi mahdollisimman nopeasti. Voit ottaa yhteyttä puhelimitse <a href='tel:+37253096721'>+37253096721</a> (Aleks) tai sähköpostitse <a href='mailto:alex.bratsunn@gmail.com'>alex.bratsunn@gmail.com</a>.",
+        "en": "If you have questions or want more information about our products or services, contact us via the form below. Our team will respond to your inquiry as soon as possible. You can contact us by phone <a href='tel:+37253096721'>+37253096721</a> (Aleks) or email <a href='mailto:alex.bratsunn@gmail.com'>alex.bratsunn@gmail.com</a>."
+    },
+    "form_name": {
+        "et": "Nimi *",
+        "ru": "Имя *",
+        "fi": "Nimi *",
+        "en": "Name *"
+    },
+    "form_name_placeholder": {
+        "et": "Sisesta oma nimi",
+        "ru": "Введите свое имя",
+        "fi": "Syötä nimesi",
+        "en": "Enter your name"
+    },
+    "form_email": {
+        "et": "E-posti aadress *",
+        "ru": "Адрес электронной почты *",
+        "fi": "Sähköpostiosoite *",
+        "en": "Email address *"
+    },
+    "form_email_placeholder": {
+        "et": "Sisesta oma e-posti aadress",
+        "ru": "Введите свой адрес электронной почты",
+        "fi": "Syötä sähköpostiosoitteesi",
+        "en": "Enter your email address"
+    },
+    "order_success": {
+        "et": "Aitäh tellimuse eest! Võtame teiega peagi ühendust.",
+        "ru": "Спасибо за заказ! Мы свяжемся с вами в ближайшее время.",
+        "fi": "Kiitos tilauksestasi! Otamme sinuun yhteyttä pian.",
+        "en": "Thank you for your order! We will contact you soon."
+    },
+    "contact_success": {
+        "et": "Aitäh sõnumi eest! Võtame teiega peagi ühendust.",
+        "ru": "Спасибо за сообщение! Мы свяжемся с вами в ближайшее время.",
+        "fi": "Kiitos viestistäsi! Otamme sinuun yhteyttä pian.",
+        "en": "Thank you for your message! We will contact you soon."
+    },
+    "form_address_label": {
+        "et": "Aadress",
+        "ru": "Адрес",
+        "fi": "Osoite",
+        "en": "Address"
+    },
+    "form_message": {
+        "et": "Sõnum",
+        "ru": "Сообщение",
+        "fi": "Viesti",
+        "en": "Message"
+    },
+    "form_message_placeholder": {
+        "et": "Sisesta oma sõnum",
+        "ru": "Введите свое сообщение",
+        "fi": "Syötä viestisi",
+        "en": "Enter your message"
+    },
+    "form_submit": {
+        "et": "Saada sõnum",
+        "ru": "Отправить сообщение",
+        "fi": "Lähetä viesti",
+        "en": "Send message"
+    },
+    "form_required": {
+        "et": "Need väljad on nõutud.",
+        "ru": "Обязательные поля.",
+        "fi": "Nämä kentät ovat pakollisia.",
+        "en": "These fields are required."
+    },
+    "contact_phone_label": {
+        "et": "Telefon",
+        "ru": "Телефон",
+        "fi": "Puhelin",
+        "en": "Phone"
+    },
+    "contact_email_label": {
+        "et": "E-mail",
+        "ru": "Электронная почта",
+        "fi": "Sähköposti",
+        "en": "Email"
+    },
+    "nav_home": {
+        "et": "Avaleht",
+        "ru": "Главная",
+        "fi": "Etusivu",
+        "en": "Home"
+    },
+    "nav_products": {
+        "et": "Tooted",
+        "ru": "Товары",
+        "fi": "Tuotteet",
+        "en": "Products"
+    },
+    "nav_shipping": {
+        "et": "Toimetamine",
+        "ru": "Доставка",
+        "fi": "Toimitus",
+        "en": "Delivery"
+    },
+    "nav_contact": {
+        "et": "Kontakt",
+        "ru": "Контакты",
+        "fi": "Yhteys",
+        "en": "Contact"
+    },
+    "nav_order": {
+        "et": "Tellimine",
+        "ru": "Заказ",
+        "fi": "Tilaus",
+        "en": "Order"
+    },
+    "nav_blog": {
+        "et": "Blogi",
+        "ru": "Блог",
+        "fi": "Blogi",
+        "en": "Blog"
+    },
+    "cart_title": {
+        "et": "Tellimiskorv",
+        "ru": "Корзина заказа",
+        "fi": "Tilauskori",
+        "en": "Order Cart"
+    },
+    "cart_empty": {
+        "et": "Korv on tühi. Lisage tooteid.",
+        "ru": "Корзина пуста. Добавьте товары.",
+        "fi": "Kori on tyhjä. Lisää tuotteita.",
+        "en": "Cart is empty. Add some products."
+    },
+    "products_empty": {
+        "et": "Tooteid pole hetkel saadaval.",
+        "ru": "Товары пока недоступны.",
+        "fi": "Tuotteita ei ole tällä hetkellä saatavilla.",
+        "en": "No products are available right now."
+    },
+    "blog_empty": {
+        "et": "Blogipostitusi pole veel avaldatud.",
+        "ru": "Публикаций в блоге пока нет.",
+        "fi": "Blogikirjoituksia ei ole vielä julkaistu.",
+        "en": "No blog posts have been published yet."
+    },
+    "cart_checkout": {
+        "et": "Vormista tellimus",
+        "ru": "Оформить заказ",
+        "fi": "Tee tilaus",
+        "en": "Place Order"
+    },
+    "stock_in_stock": {
+        "et": "Laos",
+        "ru": "В наличии",
+        "fi": "Varastossa",
+        "en": "In Stock"
+    },
+    "stock_out_of_stock": {
+        "et": "Laos otsas",
+        "ru": "Нет в наличии",
+        "fi": "Loppu varastosta",
+        "en": "Out of Stock"
+    },
+    "page_title": {
+        "et": "Kalavõrkude Müük | Kvaliteetsed Kalastusvõrgud Eestist | Kalavork.ee",
+        "ru": "Продажа Рыболовных Сетей | Качественные Рыболовные Сети из Эстонии | Kalavork.ee",
+        "fi": "Kalaverkkojen Myynti | Laadukkaat Kalastusverkot Virosta | Kalavork.ee",
+        "en": "Fishing Nets For Sale | Quality Fishing Nets from Estonia | Kalavork.ee"
+    },
+    "meta_description": {
+        "et": "Osta kvaliteetseid kalavõrke Eestist. Lai valik erineva silmasuurusega võrke (38mm, 65mm, 70mm, 90mm) ja võrgustikke. Kiire tarne üle Eesti.",
+        "ru": "Купить качественные рыболовные сети в Эстонии. Широкий выбор сетей с различными размерами ячеек (38мм, 65мм, 70мм, 90мм) и полотен. Быстрая доставка по всей Эстонии.",
+        "fi": "Osta laadukkaita kalaverkkoja Virosta. Laaja valikoima erilaisia silmäkokoisia verkkoja (38mm, 65mm, 70mm, 90mm) ja verkkoja. Nopea toimitus koko Viroon.",
+        "en": "Buy quality fishing nets from Estonia. Wide selection of nets with different mesh sizes (38mm, 65mm, 70mm, 90mm) and net cloths. Fast delivery across Estonia."
+    },
+    "keywords": {
+        "et": "kalavõrk, kalastusvõrk, võrgulina, kalastustarvikud, kalamüük, hiina kalavõrk, soome kalavõrk, kalapüük",
+        "ru": "рыболовные сети, сети для рыбалки, полотно для сетей, рыболовные снасти, продажа рыбы, китайские рыболовные сети, финские рыболовные сети, рыбалка",
+        "fi": "kalaverkko, kalastusverkko, verkko kangas, kalastustarvikkeet, kalamyynti, kiinalainen kalaverkko, suomalainen kalaverkko, kalastus",
+        "en": "fishing net, fishing gear, net cloth, fishing equipment, fish sales, Chinese fishing net, Finnish fishing net, fishing"
+    }
+}

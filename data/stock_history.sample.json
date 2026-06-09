@@ -1,0 +1,10 @@
+[
+    {
+        "id": "sh-sample",
+        "product_id": "prod-001",
+        "delta": 0,
+        "reason": "sample",
+        "timestamp": "2026-01-01T12:00:00+02:00",
+        "ip": "127.0.0.1"
+    }
+]

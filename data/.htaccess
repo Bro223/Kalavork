@@ -1,0 +1,17 @@
+# Block ALL direct access to data directory
+# This is defense-in-depth — data/ sits above the document root,
+# but if Apache config ever changes, this prevents exposure.
+
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+
+<IfModule !mod_authz_core.c>
+    Order deny,allow
+    Deny from all
+</IfModule>
+
+# Also block via FilesMatch
+<FilesMatch ".*">
+    Require all denied
+</FilesMatch>

@@ -1,0 +1,79 @@
+RewriteEngine On
+
+# ─────────────────────────────────────────────────────────
+# Redirect to HTTPS
+# ─────────────────────────────────────────────────────────
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# ─────────────────────────────────────────────────────────
+# Security headers (applied to every response)
+# ─────────────────────────────────────────────────────────
+<IfModule mod_headers.c>
+    # Prevent MIME-type sniffing
+    Header always set X-Content-Type-Options "nosniff"
+
+    # Prevent clickjacking
+    Header always set X-Frame-Options "SAMEORIGIN"
+
+    # Referrer policy — only send origin for same-origin requests
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+    # Permissions policy — restrict browser features
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+
+    # Content-Security-Policy
+    # Allows: self, Google reCAPTCHA, Google Fonts, Google Analytics
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google.com https://www.gstatic.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src 'self' https://www.google.com; connect-src 'self' https://www.google-analytics.com;"
+
+    # Hide PHP version
+    Header always unset X-Powered-By
+</IfModule>
+
+# ─────────────────────────────────────────────────────────
+# Serve /assets/ from project root (outside doc root)
+# ─────────────────────────────────────────────────────────
+# Block path traversal attempts
+RewriteCond %{REQUEST_URI} \.\./
+RewriteRule ^ - [F,L]
+
+RewriteRule ^assets/([a-zA-Z0-9_\-./]+)$ ../assets/$1 [L]
+
+# ─────────────────────────────────────────────────────────
+# Don't rewrite existing files/dirs
+# ─────────────────────────────────────────────────────────
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Route everything through index.php
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# ─────────────────────────────────────────────────────────
+# Block direct access to sensitive file types
+# ─────────────────────────────────────────────────────────
+<FilesMatch "\.(json|log|md|sql|env|bak|backup|tmp|cache)$">
+    Require all denied
+</FilesMatch>
+
+<FilesMatch "^(config\.php|config\.local\.php|composer\.(json|lock))$">
+    Require all denied
+</FilesMatch>
+
+# ─────────────────────────────────────────────────────────
+# Prevent directory listing
+# ─────────────────────────────────────────────────────────
+Options -Indexes
+
+# ─────────────────────────────────────────────────────────
+# Caching
+# ─────────────────────────────────────────────────────────
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+</IfModule>

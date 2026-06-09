@@ -1,0 +1,99 @@
+# ───────────────────────────────────────────────────────────────
+# Kalavork.ee — .gitignore
+# ───────────────────────────────────────────────────────────────
+# Prevents committing credentials, user data (GDPR), and
+# machine-specific files to public repositories.
+# ───────────────────────────────────────────────────────────────
+
+# ╔══════════════════════════════════════════════════════════════╗
+# ║  SECRETS — CREDENTIALS & API KEYS                           ║
+# ╚══════════════════════════════════════════════════════════════╝
+# config.local.php contains SMTP password, reCAPTCHA secret,
+# admin password hash, personal emails and phone numbers.
+# See config.local.example.php for the template.
+config.local.php
+
+# Any other files that might accidentally contain secrets
+.env
+.env.*
+*.secret
+credentials.*
+
+# ╔══════════════════════════════════════════════════════════════╗
+# ║  PRIVATE DATA — GDPR (real people's personal information)   ║
+# ╚══════════════════════════════════════════════════════════════╝
+# These files contain customer names, emails, phone numbers,
+# and physical addresses. They MUST NOT leave the server.
+# Sample files (*.sample.json) with dummy data are safe to commit.
+/data/contacts.json
+/data/orders.json
+/data/stock_history.json
+
+# ╔══════════════════════════════════════════════════════════════╗
+# ║  RUNTIME & TEMPORARY FILES                                  ║
+# ╚══════════════════════════════════════════════════════════════╝
+*.bak
+*.backup
+*.tmp
+*.temp
+*.log
+*.cache
+*.swp
+*.swo
+*~
+\#*\#
+.#*
+
+# PHP session files
+sess_*
+
+# Rate limiter storage (hashed IP-based files — never commit)
+/data/.ratelimit/
+
+# ╔══════════════════════════════════════════════════════════════╗
+# ║  OPERATING SYSTEM                                           ║
+# ╚══════════════════════════════════════════════════════════════╝
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ╔══════════════════════════════════════════════════════════════╗
+# ║  EDITORS & IDEs                                             ║
+# ╚══════════════════════════════════════════════════════════════╝
+.idea/
+.vscode/
+.vs/
+*.sublime-*
+.project
+.classpath
+.settings/
+*.code-workspace
+*.sublime-workspace
+
+# ╔══════════════════════════════════════════════════════════════╗
+# ║  DEPENDENCIES                                               ║
+# ╚══════════════════════════════════════════════════════════════╝
+/vendor/
+composer.lock
+node_modules/
+package-lock.json
+yarn.lock
+
+# ╔══════════════════════════════════════════════════════════════╗
+# ║  UPLOADS & USER-GENERATED CONTENT (if directories exist)    ║
+# ╚══════════════════════════════════════════════════════════════╝
+/uploads/*
+!/uploads/.gitkeep
+
+# ╔══════════════════════════════════════════════════════════════╗
+# ║  SERVER-SPECIFIC                                            ║
+# ╚══════════════════════════════════════════════════════════════╝
+# Project-root .htaccess — defense-in-depth protection.
+# The tracked version is /public/.htaccess (the live one).
+/.htaccess
