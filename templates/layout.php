@@ -18,7 +18,7 @@
     <meta property="og:type" content="<?= ($is_home ?? false) ? 'website' : 'article' ?>">
     <meta property="og:site_name" content="<?= SITE_NAME ?>">
 
-    <link rel="stylesheet" href="/css/style.css?v=20250608">
+    <link rel="stylesheet" href="/css/style.css?v=20260709">
 
     <?= $jsonld ?? '' ?>
 
