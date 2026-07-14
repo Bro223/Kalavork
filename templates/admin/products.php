@@ -13,12 +13,13 @@
                 <th>Price</th>
                 <th>Stock</th>
                 <th>Visible</th>
+                <th>Set Image</th>
                 <th>Actions</th>
             </tr>
         </thead>
         <tbody>
             <?php if (empty($products)): ?>
-            <tr><td colspan="7" style="text-align:center;padding:2rem;color:var(--text-muted)">No products yet.</td></tr>
+            <tr><td colspan="8" style="text-align:center;padding:2rem;color:var(--text-muted)">No products yet.</td></tr>
             <?php endif; ?>
             <?php foreach ($products as $p): ?>
             <tr>
@@ -37,6 +38,18 @@
                     </span>
                 </td>
                 <td><?= !empty($p['visible']) ? '✅' : '❌' ?></td>
+                <td>
+                    <form method="post" action="/manage/product/quick-image" class="inline-form">
+                        <input type="hidden" name="csrf_token" value="<?= $csrf_token ?>">
+                        <input type="hidden" name="product_id" value="<?= $p['id'] ?>">
+                        <select name="image" onchange="this.form.submit()" style="max-width:120px;font-size:0.75rem;padding:2px 4px">
+                            <option value="">— No image —</option>
+                            <?php foreach ($asset_images ?? [] as $img): ?>
+                            <option value="<?= Template::e($img) ?>" <?= ($p['image'] ?? '') === $img ? 'selected' : '' ?>><?= Template::e($img) ?></option>
+                            <?php endforeach; ?>
+                        </select>
+                    </form>
+                </td>
                 <td>
                     <a href="/manage/product/<?= $p['id'] ?>" class="btn btn-sm btn-outline">Edit</a>
                     <form method="post" action="/manage/product/delete" class="inline-form" onsubmit="return confirm('Delete this product?')">

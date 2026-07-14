@@ -86,6 +86,7 @@ $router->get('/manage/product/{id}', function($p) { AdminController::productEdit
 $router->post('/manage/product/save', function() { AdminController::productSave(); });
 $router->post('/manage/product/delete', function() { AdminController::productDelete(); });
 $router->post('/manage/product/stock-adjust', function() { AdminController::productStockAdjust(); });
+$router->post('/manage/product/quick-image', function() { AdminController::productQuickImage(); });
 
 // Orders
 $router->get('/manage/orders', function() { AdminController::orders(); });
