@@ -126,7 +126,6 @@ class AdminController
             'page_title' => 'Products',
             'csrf_token' => $csrf,
             'products' => $products,
-            'asset_images' => self::assetImages(),
             'languages' => Storage::read('languages'),
             'is_home' => false,
         ]);
@@ -328,37 +327,6 @@ class AdminController
 
         $_SESSION['admin_success'] = 'Stock updated.';
         header('Location: /manage/product/' . $productId);
-        exit;
-    }
-
-    /**
-     * Quick-set image from the products listing page
-     */
-    public static function productQuickImage(): void
-    {
-        Auth::requireAdmin();
-        if (!CSRF::verify()) {
-            $_SESSION['admin_error'] = 'Invalid request.';
-            header('Location: /manage/products');
-            exit;
-        }
-
-        $productId = $_POST['product_id'] ?? '';
-        $image = trim($_POST['image'] ?? '');
-
-        $product = Storage::get('products', $productId);
-        if (!$product) {
-            header('Location: /manage/products');
-            exit;
-        }
-
-        $product['image'] = $image;
-        $product['gallery_image'] = $image ?: ($product['gallery_image'] ?? '');
-        $product['updated_at'] = date('c');
-        Storage::save('products', $productId, $product);
-
-        $_SESSION['admin_success'] = 'Product image updated.';
-        header('Location: /manage/products');
         exit;
     }
 
