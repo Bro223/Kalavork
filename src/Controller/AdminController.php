@@ -204,42 +204,21 @@ class AdminController
         $oldStock = $oldProduct['stock'] ?? 0;
 
         $image = trim($_POST['image'] ?? '');
-        $galleryImage = trim($_POST['gallery_image'] ?? $image);
         $uploadedImage = self::handleImageUpload('image_upload', 'product');
-        $uploadedGalleryImage = self::handleImageUpload('gallery_image_upload', 'product');
 
         if ($uploadedImage) {
-            if (!empty($_POST['delete_old_image']) && !empty($oldProduct['image']) && $oldProduct['image'] !== $galleryImage) {
+            if (!empty($_POST['delete_old_image']) && !empty($oldProduct['image'])) {
                 self::deleteAssetImage($oldProduct['image'], $productId);
             }
             $image = $uploadedImage;
         } elseif (!empty($_POST['remove_image'])) {
-            if (!empty($_POST['delete_removed_image']) && !empty($oldProduct['image']) && $oldProduct['image'] !== $galleryImage) {
+            if (!empty($_POST['delete_removed_image']) && !empty($oldProduct['image'])) {
                 self::deleteAssetImage($oldProduct['image'], $productId);
             }
             $image = '';
         } elseif ($oldProduct && !empty($oldProduct['image']) && empty($image)) {
             // No upload, no removal requested, and POST image is empty — preserve existing image
             $image = $oldProduct['image'];
-        }
-
-        if ($uploadedGalleryImage) {
-            if (!empty($_POST['delete_old_gallery_image']) && !empty($oldProduct['gallery_image']) && $oldProduct['gallery_image'] !== $image) {
-                self::deleteAssetImage($oldProduct['gallery_image'], $productId);
-            }
-            $galleryImage = $uploadedGalleryImage;
-        } elseif (!empty($_POST['remove_gallery_image'])) {
-            if (!empty($_POST['delete_removed_gallery_image']) && !empty($oldProduct['gallery_image']) && $oldProduct['gallery_image'] !== $image) {
-                self::deleteAssetImage($oldProduct['gallery_image'], $productId);
-            }
-            $galleryImage = '';
-        } elseif ($oldProduct && !empty($oldProduct['gallery_image']) && empty($galleryImage)) {
-            // No upload, no removal requested, and POST gallery image is empty — preserve existing
-            $galleryImage = $oldProduct['gallery_image'];
-        }
-
-        if ($galleryImage === '') {
-            $galleryImage = $image;
         }
 
         $product = [
@@ -250,7 +229,6 @@ class AdminController
             'tier_pricing' => $tierPricing,
             'stock' => (int)($_POST['stock'] ?? 0),
             'image' => $image,
-            'gallery_image' => $galleryImage,
             'category' => trim($_POST['category'] ?? ''),
             'visible' => !empty($_POST['visible']),
             'specs' => [
@@ -1820,7 +1798,7 @@ class AdminController
             if ((string)$productId === $excludeProductId) {
                 continue;
             }
-            if (($product['image'] ?? '') === $filename || ($product['gallery_image'] ?? '') === $filename) {
+            if (($product['image'] ?? '') === $filename) {
                 return true;
             }
         }

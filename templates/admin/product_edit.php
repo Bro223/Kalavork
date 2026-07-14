@@ -40,11 +40,11 @@
             </div>
         </div>
 
-        <!-- Images -->
-        <h3 style="margin:1.5rem 0 0.5rem">Images</h3>
+        <!-- Image -->
+        <h3 style="margin:1.5rem 0 0.5rem">Image</h3>
         <div class="product-image-editor">
             <div class="image-edit-panel">
-                <h4>Main Image</h4>
+                <h4>Product Image</h4>
                 <?php if (!empty($product['image'])): ?>
                 <div class="image-preview-row">
                     <img src="/assets/img/<?= Template::e($product['image']) ?>" alt="">
@@ -63,43 +63,13 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label>Upload New Main Image</label>
+                    <label>Upload New Image</label>
                     <input type="file" name="image_upload" accept="image/*">
                 </div>
                 <?php if (!empty($product['image'])): ?>
                 <label><input type="checkbox" name="delete_old_image" value="1"> Delete old image file when upload succeeds and it is unused</label>
-                <label><input type="checkbox" name="remove_image" value="1"> Remove main image from product</label>
+                <label><input type="checkbox" name="remove_image" value="1"> Remove image from product</label>
                 <label><input type="checkbox" name="delete_removed_image" value="1"> Delete removed image file if unused</label>
-                <?php endif; ?>
-            </div>
-
-            <div class="image-edit-panel">
-                <h4>Gallery Image</h4>
-                <?php if (!empty($product['gallery_image'])): ?>
-                <div class="image-preview-row">
-                    <img src="/assets/img/<?= Template::e($product['gallery_image']) ?>" alt="">
-                    <strong><?= Template::e($product['gallery_image']) ?></strong>
-                </div>
-                <?php endif; ?>
-                <div class="form-group">
-                    <label>Choose Existing Image</label>
-                    <select name="gallery_image">
-                        <option value="">Same as main image</option>
-                        <?php foreach ($asset_images ?? [] as $image): ?>
-                        <option value="<?= Template::e($image) ?>" <?= ($product['gallery_image'] ?? '') === $image ? 'selected' : '' ?>>
-                            <?= Template::e($image) ?>
-                        </option>
-                        <?php endforeach; ?>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>Upload New Gallery Image</label>
-                    <input type="file" name="gallery_image_upload" accept="image/*">
-                </div>
-                <?php if (!empty($product['gallery_image'])): ?>
-                <label><input type="checkbox" name="delete_old_gallery_image" value="1"> Delete old gallery image when upload succeeds and it is unused</label>
-                <label><input type="checkbox" name="remove_gallery_image" value="1"> Remove gallery image from product</label>
-                <label><input type="checkbox" name="delete_removed_gallery_image" value="1"> Delete removed gallery image file if unused</label>
                 <?php endif; ?>
             </div>
         </div>
