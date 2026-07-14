@@ -218,6 +218,9 @@ class AdminController
                 self::deleteAssetImage($oldProduct['image'], $productId);
             }
             $image = '';
+        } elseif ($oldProduct && !empty($oldProduct['image']) && empty($image)) {
+            // No upload, no removal requested, and POST image is empty — preserve existing image
+            $image = $oldProduct['image'];
         }
 
         if ($uploadedGalleryImage) {
@@ -230,6 +233,9 @@ class AdminController
                 self::deleteAssetImage($oldProduct['gallery_image'], $productId);
             }
             $galleryImage = '';
+        } elseif ($oldProduct && !empty($oldProduct['gallery_image']) && empty($galleryImage)) {
+            // No upload, no removal requested, and POST gallery image is empty — preserve existing
+            $galleryImage = $oldProduct['gallery_image'];
         }
 
         if ($galleryImage === '') {
