@@ -1,5 +1,5 @@
 <div class="admin-header">
-    <h1>👤 <?= Template::e($contact['name'] ?? 'Unnamed') ?></h1>
+    <h1><?= Template::e($contact['name'] ?? 'Unnamed') ?></h1>
     <div>
         <a href="/manage/crm/<?= Template::e($contact['id']) ?>/edit" class="btn btn-outline">Edit</a>
         <a href="/manage/crm" class="btn btn-outline">← All Contacts</a>

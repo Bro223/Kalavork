@@ -59,7 +59,7 @@ $formatTranslationValue = function($value): string {
                         <input type="hidden" name="value_<?= $l2 ?>" value="<?= Template::e($formatTranslationValue($vals[$l2] ?? '')) ?>">
                         <?php endforeach; ?>
                         <textarea name="value_<?= $l ?>" rows="4"><?= Template::e($formatTranslationValue($vals[$l] ?? '')) ?></textarea>
-                        <button type="submit" class="btn btn-sm btn-outline" title="Save">💾</button>
+                        <button type="submit" class="btn btn-sm btn-outline">Save</button>
                     </form>
                 </td>
                 <?php endforeach; ?>

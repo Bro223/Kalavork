@@ -1,4 +1,4 @@
-<h1>🏳 Languages</h1>
+<h1>🌍 Languages</h1>
 
 <div class="admin-card">
     <h2>Active Languages</h2>

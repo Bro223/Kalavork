@@ -123,7 +123,7 @@
             </label>
         </div>
 
-        <button type="submit" class="btn btn-primary" style="margin-top:1rem">💾 Save Product</button>
+        <button type="submit" class="btn btn-primary" style="margin-top:1rem">Save Product</button>
     </form>
 </div>
 

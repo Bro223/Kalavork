@@ -10,7 +10,7 @@
 
 <div class="admin-layout">
     <aside class="admin-sidebar">
-        <a href="/manage" class="logo">⚙ <?= SITE_NAME ?></a>
+        <a href="/manage" class="logo"><?= SITE_NAME ?></a>
         <button class="admin-menu-toggle" id="adminMenuToggle" aria-label="Toggle menu" title="Menu"></button>
         
         <nav id="adminNav">
@@ -18,16 +18,16 @@
             <a href="/manage/products" class="<?= strpos($page_title ?? '', 'Product') !== false ? 'active' : '' ?>">📦 Products</a>
             <a href="/manage/orders" class="<?= ($page_title ?? '') === 'Orders' || strpos($page_title ?? '', 'Order #') === 0 ? 'active' : '' ?>">🧾 Orders</a>
             <a href="/manage/statistics" class="<?= ($page_title ?? '') === 'Statistics' ? 'active' : '' ?>">📈 Statistics</a>
-            <a href="/manage/content" class="<?= ($page_title ?? '') === 'Content' ? 'active' : '' ?>">🧩 Content</a>
+            <a href="/manage/content" class="<?= ($page_title ?? '') === 'Content' ? 'active' : '' ?>">📄 Content</a>
             <a href="/manage/blog" class="<?= strpos($page_title ?? '', 'Post') !== false || ($page_title ?? '') === 'Blog' ? 'active' : '' ?>">📝 Blog</a>
             <a href="/manage/translations" class="<?= ($page_title ?? '') === 'Translations' ? 'active' : '' ?>">🌐 Translations</a>
-            <a href="/manage/languages" class="<?= ($page_title ?? '') === 'Languages' ? 'active' : '' ?>">🏳 Languages</a>
+            <a href="/manage/languages" class="<?= ($page_title ?? '') === 'Languages' ? 'active' : '' ?>">🌍 Languages</a>
             <a href="/manage/shipping-ways" class="<?= ($page_title ?? '') === 'Shipping Ways' ? 'active' : '' ?>">🚚 Shipping Ways</a>
             <a href="/manage/crm" class="<?= ($page_title ?? '') === 'CRM' || strpos($page_title ?? '', 'Contact') === 0 ? 'active' : '' ?>">👥 CRM</a>
             <a href="/manage/settings" class="<?= ($page_title ?? '') === 'Settings' ? 'active' : '' ?>">⚙ Settings</a>
             <hr style="border-color:#334155;margin:1rem 0">
-            <a href="/" target="_blank">🔗 View Site</a>
-            <a href="/manage/logout" style="color:#f87171">🚪 Logout</a>
+            <a href="/" target="_blank">View Site</a>
+            <a href="/manage/logout" style="color:#f87171">Logout</a>
         </nav>
     </aside>
     
@@ -39,16 +39,16 @@
         <a href="/manage/products" class="<?= strpos($page_title ?? '', 'Product') !== false ? 'active' : '' ?>">📦 Products</a>
         <a href="/manage/orders" class="<?= ($page_title ?? '') === 'Orders' || strpos($page_title ?? '', 'Order #') === 0 ? 'active' : '' ?>">🧾 Orders</a>
         <a href="/manage/statistics" class="<?= ($page_title ?? '') === 'Statistics' ? 'active' : '' ?>">📈 Statistics</a>
-        <a href="/manage/content" class="<?= ($page_title ?? '') === 'Content' ? 'active' : '' ?>">🧩 Content</a>
+        <a href="/manage/content" class="<?= ($page_title ?? '') === 'Content' ? 'active' : '' ?>">📄 Content</a>
         <a href="/manage/blog" class="<?= strpos($page_title ?? '', 'Post') !== false || ($page_title ?? '') === 'Blog' ? 'active' : '' ?>">📝 Blog</a>
         <a href="/manage/translations" class="<?= ($page_title ?? '') === 'Translations' ? 'active' : '' ?>">🌐 Translations</a>
-        <a href="/manage/languages" class="<?= ($page_title ?? '') === 'Languages' ? 'active' : '' ?>">🏳 Languages</a>
+        <a href="/manage/languages" class="<?= ($page_title ?? '') === 'Languages' ? 'active' : '' ?>">🌍 Languages</a>
         <a href="/manage/shipping-ways" class="<?= ($page_title ?? '') === 'Shipping Ways' ? 'active' : '' ?>">🚚 Shipping Ways</a>
         <a href="/manage/crm" class="<?= ($page_title ?? '') === 'CRM' || strpos($page_title ?? '', 'Contact') === 0 ? 'active' : '' ?>">👥 CRM</a>
         <a href="/manage/settings" class="<?= ($page_title ?? '') === 'Settings' ? 'active' : '' ?>">⚙ Settings</a>
         <hr style="border-color:#334155;margin:1rem 0">
-        <a href="/" target="_blank">🔗 View Site</a>
-        <a href="/manage/logout" style="color:#f87171">🚪 Logout</a>
+        <a href="/" target="_blank">View Site</a>
+        <a href="/manage/logout" style="color:#f87171">Logout</a>
     </nav>
     
     <main class="admin-main">

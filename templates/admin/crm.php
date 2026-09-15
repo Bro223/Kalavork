@@ -51,9 +51,9 @@ document.getElementById('crm-import-toggle').addEventListener('click', function(
     <span id="crm-selected-count" style="font-weight:600;">0 selected</span>
     <select name="bulk_action" id="bulk-action-select" style="padding:0.4rem 0.6rem; border:1px solid var(--border-color); border-radius:6px;">
         <option value="">— Bulk action —</option>
-        <option value="delete">🗑 Delete selected</option>
-        <option value="active_buyer">⭐ Mark as Active Buyer</option>
-        <option value="contact">📋 Mark as Contact</option>
+        <option value="delete">Delete selected</option>
+        <option value="active_buyer">Mark as Active Buyer</option>
+        <option value="contact">Mark as Contact</option>
         <option value="export">📥 Export selected</option>
     </select>
     <button type="submit" class="btn btn-sm btn-primary" id="crm-bulk-apply">Apply</button>

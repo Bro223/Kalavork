@@ -5,7 +5,7 @@ $heroImage = $home_settings['hero_background_image'] ?? 'backgroung.webp';
 ?>
 
 <div class="admin-header">
-    <h1>🧩 Content</h1>
+    <h1>📄 Content</h1>
     <a href="/" target="_blank" class="btn btn-outline">View Homepage</a>
 </div>
 

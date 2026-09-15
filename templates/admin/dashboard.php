@@ -47,7 +47,7 @@
 
 <?php if (!empty($recent_orders)): ?>
 <div class="admin-card">
-    <h2>🧾 Recent Orders</h2>
+    <h2>Recent Orders</h2>
     <table class="admin-table">
         <thead><tr><th>Order #</th><th>Customer</th><th>Total</th><th>Status</th><th>Date</th><th></th></tr></thead>
         <tbody>

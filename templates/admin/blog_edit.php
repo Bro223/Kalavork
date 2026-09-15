@@ -64,7 +64,7 @@
             </div>
         </div>
 
-        <button type="submit" class="btn btn-primary" style="margin-top:1rem">💾 Save Post</button>
+        <button type="submit" class="btn btn-primary" style="margin-top:1rem">Save Post</button>
     </form>
 </div>
 

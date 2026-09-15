@@ -1,14 +1,7 @@
 <?php
 /**
- * Rate Limiter
- * ============
- * Protects forms (contact, order, login) from brute-force and spam.
- * Uses the filesystem as a simple store — no Redis/DB needed.
- *
- * Usage:
- *   $rl = new RateLimiter('contact');
- *   $rl->checkOrFail();     // throws RateLimitExceededException
- *   $rl->record();          // mark this attempt
+ * Rate limiter for forms (contact, order, login).
+ * Filesystem-backed, no Redis/DB needed.
  */
 
 class RateLimitExceededException extends \RuntimeException
@@ -84,10 +77,6 @@ class RateLimiter
         $recent = array_values(array_filter($hits, fn(int $ts) => $ts > $cutoff));
         return max(0, $this->maxAttempts - count($recent));
     }
-
-    // ─────────────────────────────────────────────────────
-    // Internals
-    // ─────────────────────────────────────────────────────
 
     private function buildIdentifier(): string
     {

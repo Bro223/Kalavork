@@ -1,5 +1,5 @@
 <div class="admin-header">
-    <h1><?= $contact ? '✏️ Edit Contact' : '➕ Add Contact' ?></h1>
+    <h1><?= $contact ? 'Edit Contact' : 'Add Contact' ?></h1>
     <a href="/manage/crm" class="btn btn-outline">← All Contacts</a>
 </div>
 
@@ -68,6 +68,6 @@
 <form method="POST" action="/manage/crm/delete" style="margin-top:1rem" onsubmit="return confirm('Delete this contact? This cannot be undone.')">
     <?= CSRF::field() ?>
     <input type="hidden" name="contact_id" value="<?= Template::e($contact['id']) ?>">
-    <button type="submit" class="btn btn-danger">🗑 Delete Contact</button>
+    <button type="submit" class="btn btn-danger">Delete Contact</button>
 </form>
 <?php endif; ?>

@@ -115,7 +115,7 @@
             <div id="editLabels"></div>
 
             <div style="margin-top:1.5rem;display:flex;gap:0.5rem">
-                <button type="submit" class="btn btn-primary">💾 Save</button>
+                <button type="submit" class="btn btn-primary">Save</button>
                 <button type="button" class="btn btn-outline" onclick="closeEditModal()">Cancel</button>
             </div>
         </form>

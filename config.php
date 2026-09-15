@@ -1,44 +1,31 @@
 <?php
 /**
- * Kalavork.ee — Public Configuration
- * ===================================
- * This file contains NO secrets. All credentials, API keys, and personal
- * contact details live in config.local.php (gitignored). If that file is
- * missing (e.g. first clone / CI), safe dummy defaults are used so the
- * site boots without errors but email/captcha/auth won't work.
+ * Public configuration. No secrets in this file.
  *
- * To set up a real deployment:
- *   cp config.local.example.php config.local.php
- *   nano config.local.php
+ * Real credentials live in config.local.php (gitignored), copied from
+ * config.local.example.php. If it is missing, safe dummy defaults below
+ * are used, so the site boots but email, captcha and admin login won't work.
  */
 
-// ───────────────────────────────────────────────────────────────
-// 0. Production hardening — never leak paths or errors
-// ───────────────────────────────────────────────────────────────
+// Production: never leak paths or errors to the browser
 error_reporting(0);
 ini_set('display_errors', '0');
 ini_set('display_startup_errors', '0');
 ini_set('log_errors', '1');   // write to server log only, not to the browser
 
-// ───────────────────────────────────────────────────────────────
-// 1. Load local secrets (NOT tracked by git)
-// ───────────────────────────────────────────────────────────────
+// Local secrets (not tracked by git)
 $localConfig = __DIR__ . '/config.local.php';
 if (file_exists($localConfig)) {
     require_once $localConfig;
 }
 
-// ───────────────────────────────────────────────────────────────
-// 2. Public site identity
-// ───────────────────────────────────────────────────────────────
+// Site identity
 define('SITE_NAME', 'Kalavork.ee');
 define('SITE_URL', 'https://kalavork.ee');
 
-// ───────────────────────────────────────────────────────────────
-// 3. Fallback defaults (used when config.local.php is missing)
-// ───────────────────────────────────────────────────────────────
+// Fallback defaults (used when config.local.php is missing)
 
-// Contact / Business Owner
+// Contact / business owner
 defined('SITE_EMAIL')         or define('SITE_EMAIL', 'dev@localhost');
 defined('SITE_PHONE')         or define('SITE_PHONE', '+37200000000');
 defined('SITE_PHONE_DISPLAY') or define('SITE_PHONE_DISPLAY', '+372 0000 0000');
@@ -67,9 +54,7 @@ defined('ADMIN_ORDER_EMAIL') or define('ADMIN_ORDER_EMAIL', 'dev@localhost');
 // Google Analytics
 defined('GA_MEASUREMENT_ID') or define('GA_MEASUREMENT_ID', '');
 
-// ───────────────────────────────────────────────────────────────
-// 4. Paths
-// ───────────────────────────────────────────────────────────────
+// Paths
 define('BASE_PATH', __DIR__);
 define('DATA_PATH', BASE_PATH . '/data');
 define('ASSETS_PATH', BASE_PATH . '/assets');
@@ -77,9 +62,7 @@ define('TEMPLATES_PATH', BASE_PATH . '/templates');
 define('SRC_PATH', BASE_PATH . '/src');
 define('LIB_PATH', BASE_PATH . '/lib');
 
-// ───────────────────────────────────────────────────────────────
-// 5. Session
-// ───────────────────────────────────────────────────────────────
+// Session
 define('SESSION_LIFETIME', 86400); // 24 hours
 
 if (session_status() === PHP_SESSION_NONE) {
@@ -94,16 +77,12 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// ───────────────────────────────────────────────────────────────
-// 6. Localisation
-// ───────────────────────────────────────────────────────────────
+// Localisation
 define('DEFAULT_LANGUAGE', 'et');
 define('AVAILABLE_LANGUAGES', ['et', 'ru', 'fi', 'en']);
 date_default_timezone_set('Europe/Tallinn');
 
-// ───────────────────────────────────────────────────────────────
-// 7. Security tokens
-// ───────────────────────────────────────────────────────────────
+// Security tokens
 define('CSRF_TOKEN_LENGTH', 32);
 define('RATE_LIMIT_WINDOW', 30);  // seconds
 define('RATE_LIMIT_MAX', 5);      // requests per window
